@@ -1,30 +1,16 @@
-let hello = 'Hello World';
-alert(hello);
+let i;
+let num = 0;
 
-alert('Hello' + 'World');
-
-let str1 = 'Hello';
-let str2 = 'World!!';
-alert(str1 + str2);
-
-let orange = 100;
-let apple = 120;
-
-if(orange < apple){
-  alert('みかんの値段がりんごより安い');
-} else if(orange == apple){
-  alert('みかんとりんごが同じ値段');
-} else{
-  alert('みかんの値段がりんごより高い');
+for( i = 1; i < 11; i++){
+  num = num + i;
 }
 
-let max = 100;
-let num = 1;
-let count = 0;
+alert('1から10まで足し算した結果は' + num + 'です');
 
-while(num < max){
-  num = num * 2;
-  count = count + 1;
-}
+let number1 = 5;
+let number2 = 5;
 
-alert('2を掛け続けて' + max + 'を超えるのに必要だった回数は' + count + '回です');
+alert(number1 + '+' + number2 + 'は' + (number1 + number2) + 'です');
+alert(number1 + '-' + number2 + 'は' + (number1 - number2) + 'です');
+alert(number1 + '*' + number2 + 'は' + (number1 * number2) + 'です');
+alert(number1 + '/' + number2 + 'は' + (number1 / number2) + 'です');
