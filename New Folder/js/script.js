@@ -11,7 +11,7 @@ $(function () {
 
     // 試行回数
     trials++;
-    $('.trials').html(trial);
+    $('.trials').html(trials);
 
     const VAL_NUMBER = $(this).val();
     let val = Number(VAL_NUMBER) || 0; // NaNのとき0にする
