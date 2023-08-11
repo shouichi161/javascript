@@ -18,7 +18,7 @@ $(function () {
     const RESULT = Math.abs(val - ran); //数字がどのぐらい離れているか
 
     //判定処理
-    if (val > 0 || val < 9) {
+    if (val < 0 || val > 9) {
       $('.result-text').html("範囲内で入力してね！");
     } else if (RESULT == 0) {
       $('.result-text').html("正解!");
