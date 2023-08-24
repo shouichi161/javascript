@@ -1,0 +1,1 @@
+###javascript練習用
